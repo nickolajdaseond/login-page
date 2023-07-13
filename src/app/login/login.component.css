@@ -1,0 +1,107 @@
+.outer{
+  background: #373B44;
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+background: linear-gradient(to right, #4286f4, #373B44);
+
+  height: 100vh;
+  position: relative;
+}
+.panel {
+  color: #fff;
+  min-height: 380px;
+  border-radius: 12px;
+  margin-top: 100px;
+  width: 365px;
+}
+.panel-heading{
+  text-align: center;
+}
+
+.pt-3{
+  font-style: normal;
+  font-weight: 300;
+}
+
+#forget{
+  font-style: italic;
+  color: #FFF;
+  font-size: small;
+  min-width: 70px;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  padding-right : 0;
+  margin-top: 3px;
+  float:right;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.form-inline label{
+  padding-left: 5px;
+  font-size: small;
+  margin: 0;
+  cursor: pointer;
+}
+
+.btn{
+  margin-top:20px;
+  border-radius: 15px;
+}
+
+.input-field{
+  border:none;
+  border-bottom: 1.5px solid #fff;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #fff;
+}
+
+input[type='text'],
+input[type='password']{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 300;
+  box-shadow: none;
+  width: 100%;
+  color:#fff
+}
+
+::placeholder{
+  color: #fff;
+}
+
+#fa-eye-slash.btn{
+  border: none;
+  outline: none;
+  box-shadow: none;
+  position: absolute;
+}
+
+button {
+  background-color: #063162;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  margin-top: 25px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.input-field.error{
+  border: solid red;
+  color: red;
+}
+

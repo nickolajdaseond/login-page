@@ -1,0 +1,73 @@
+.outer{
+  background-color: rgb(55, 100, 140);
+  height: 100vh;
+  position: relative;
+}
+.panel {
+  min-height: 200px;
+  border-radius: 12px;
+  margin-top: 100px;
+
+}
+.panel-heading{
+  text-align: center;
+
+}
+#forget{
+  min-width: 70px;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.form-inline label{
+  padding-left: 10px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.btn{
+  margin-top:20px;
+  border-radius: 15px;
+}
+
+.input-field{
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border:1px solid rgb(27, 34, 169);
+  color: rgb(82, 15, 170);
+}
+
+input[type='text'],
+input[type='password']{
+  border: none;
+  outline: none;
+  box-shadow: none;
+  width: 100%;
+}
+
+#fa-eye-slash.btn{
+  border: none;
+  outline: none;
+  box-shadow: none;
+  position: absolute;
+}
+
+img{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius:50%;
+  position:relative;
+}
+
+
+
